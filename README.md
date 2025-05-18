@@ -73,3 +73,29 @@ mutation {
   }
 }
 ```
+
+5. Search Todos by title
+
+```graphql
+query {
+  todosByTitle(title: "learn") {
+    id
+    title
+    description
+    done
+  }
+}
+```
+
+6. Search Todos by title or description
+
+```graphql
+query {
+  todosSearch(term: "flask") {
+    id
+    title
+    description
+    done
+  }
+}
+```
