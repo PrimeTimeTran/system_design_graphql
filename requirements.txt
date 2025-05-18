@@ -1,0 +1,6 @@
+certifi==2025.4.26
+cffi==1.17.1
+gpg==1.24.2
+meson==1.8.0
+pycparser==2.22
+wheel==0.45.1
